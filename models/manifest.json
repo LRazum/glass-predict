@@ -1,0 +1,49 @@
+{
+  "trained_at": "2026-06-06T16:59:17",
+  "data_source": "data/processed/global_dataset_with_features.csv",
+  "data_is_real": true,
+  "data_rows": 265,
+  "feature_count": 22,
+  "targets": {
+    "Density": {
+      "model": "physics_gp",
+      "path": "models/model_Density.joblib",
+      "n_train": 265,
+      "n_systems": 39,
+      "grouped_R2": 0.9226388591501451,
+      "grouped_MAE": 0.09467053664537045,
+      "PICP95": 0.8490566037735849,
+      "scramble_R2": -0.2180742988771167
+    },
+    "Tg": {
+      "model": "gpr",
+      "path": "models/model_Tg.joblib",
+      "n_train": 253,
+      "n_systems": 37,
+      "grouped_R2": 0.718255142328468,
+      "grouped_MAE": 55.32476409503525,
+      "PICP95": 0.8972332015810277,
+      "scramble_R2": -0.06382936890689524
+    },
+    "conductivity @30\u00b0C": {
+      "model": "gpr",
+      "path": "models/model_conductivity_@30C.joblib",
+      "n_train": 161,
+      "n_systems": 33,
+      "grouped_R2": 0.319647949928327,
+      "grouped_MAE": 1.2518004720944311,
+      "PICP95": 0.7763975155279503,
+      "scramble_R2": -0.07555225065496989
+    },
+    "EDC / kJ mol-1": {
+      "model": "gpr",
+      "path": "models/model_EDC___kJ_mol1.joblib",
+      "n_train": 207,
+      "n_systems": 35,
+      "grouped_R2": 0.508847753020985,
+      "grouped_MAE": 10.388609009407801,
+      "PICP95": 0.8405797101449275,
+      "scramble_R2": -0.049134088167556676
+    }
+  }
+}

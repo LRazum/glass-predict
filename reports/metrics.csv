@@ -1,0 +1,14 @@
+target,model,is_best,grouped_R2,random_R2,MAE,RMSE,PICP95,MPIW
+Density,mean,False,-0.0194,-0.0145,0.3644,0.5151,,
+Density,bridge,False,0.9223,0.9439,0.0993,0.1422,0.9245,0.4534
+Density,gpr,False,0.9178,0.9646,0.0978,0.1463,0.8604,0.4282
+Density,physics_gp,True,0.9226,0.9667,0.0947,0.1419,0.8491,0.4381
+Tg,mean,False,-0.0153,-0.0082,111.6924,139.8873,,
+Tg,bridge,False,0.2072,0.6647,85.247,123.6155,0.8379,307.6699
+Tg,gpr,True,0.7183,0.9317,55.3248,73.6896,0.8972,221.3728
+conductivity @30°C,mean,False,-20.545,-20.545,9.2774,9.5005,,
+conductivity @30°C,bridge,False,0.2937,0.5522,1.4209,1.7201,0.8882,5.6449
+conductivity @30°C,gpr,True,0.3196,0.8458,1.2518,1.6883,0.7764,4.2147
+EDC / kJ mol-1,mean,False,-0.0865,-0.0102,16.1628,19.4021,,
+EDC / kJ mol-1,bridge,False,0.467,0.7117,10.8626,13.59,0.8889,50.2861
+EDC / kJ mol-1,gpr,True,0.5088,0.9052,10.3886,13.045,0.8406,46.0512
